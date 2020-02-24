@@ -1,0 +1,39 @@
+.main-header {
+  background: red;
+  height: 100px;
+}
+
+.col-sx,
+.col-dx,
+.col-cen {
+  float: left;
+  height: 400px;
+}
+
+.col-sx {
+  background: green;
+  width: 30%;
+  height: 200px;
+}
+
+.col-cen {
+  width: 40%;
+  background: yellow;
+  height: 400px;
+}
+
+.col-dx {
+  width: 30%;
+  background: blue;
+  height: 400px;
+}
+
+.main-footer {
+ background: grey;
+}
+
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
